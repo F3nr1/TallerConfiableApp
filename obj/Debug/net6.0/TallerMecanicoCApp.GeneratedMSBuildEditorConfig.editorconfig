@@ -1,0 +1,220 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TallerMecanicoCApp
+build_property.RootNamespace = TallerMecanicoCApp
+build_property.ProjectDir = P:\Programacion\Projectos\C#\TallerMecanicoCApp\TallerMecanicoCApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = P:\Programacion\Projectos\C#\TallerMecanicoCApp\TallerMecanicoCApp
+build_property._RazorSourceGeneratorDebug = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Administrativoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpdm9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Administrativoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpdm9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Administrativoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpdm9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Administrativoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpdm9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Administrativoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpdm9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Diagnosticoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Diagnosticoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Diagnosticoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Diagnosticoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Diagnosticoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Direccions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Direccions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Direccions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Direccions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Direccions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Mecanicoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjYW5pY29lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Mecanicoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjYW5pY29lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Mecanicoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjYW5pY29lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Mecanicoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjYW5pY29lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Mecanicoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjYW5pY29lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Personas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Personas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Personas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Personas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Personas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Soats/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29hdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Soats/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29hdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Soats/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29hdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Soats/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29hdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Soats/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29hdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Vehiculoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Vehiculoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Vehiculoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Vehiculoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[P:/Programacion/Projectos/C\#/TallerMecanicoCApp/TallerMecanicoCApp/Views/Vehiculoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
