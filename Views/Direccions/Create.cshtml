@@ -1,0 +1,53 @@
+﻿@model TallerMecanicoCApp.Models.Direccion
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Direccion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Zona" class="control-label"></label>
+                <input asp-for="Zona" class="form-control" />
+                <span asp-validation-for="Zona" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoCalle" class="control-label"></label>
+                <input asp-for="TipoCalle" class="form-control" />
+                <span asp-validation-for="TipoCalle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Num1" class="control-label"></label>
+                <input asp-for="Num1" class="form-control" />
+                <span asp-validation-for="Num1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Num2" class="control-label"></label>
+                <input asp-for="Num2" class="form-control" />
+                <span asp-validation-for="Num2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Num3" class="control-label"></label>
+                <input asp-for="Num3" class="form-control" />
+                <span asp-validation-for="Num3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

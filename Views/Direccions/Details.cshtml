@@ -1,0 +1,48 @@
+﻿@model TallerMecanicoCApp.Models.Direccion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Direccion</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Zona)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Zona)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TipoCalle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TipoCalle)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Num1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Num1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Num2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Num2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Num3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Num3)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.DireccionId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
