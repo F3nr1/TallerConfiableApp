@@ -1,0 +1,100 @@
+﻿@page "/vehiculos"
+@using TallerMecanicoCApp.Models
+
+
+<style>
+    .selected {
+        background-color: #1E88E5 !important;
+    }
+
+        .selected > td {
+            color: white !important;
+        }
+
+            .selected > td .mud-input {
+                color: white !important;
+            }
+</style>
+
+
+<PageTitle>Lista de Vehiculos</PageTitle>
+
+<MudText Typo="Typo.h3" GutterBottom="true">Vehiculos</MudText>
+
+
+
+<MudTable Items="@vehiculo" Hover="true" Breakpoint="Breakpoint.Sm"  @ref="mudTable" RowClassFunc="@SelectedRowClassFunc"  OnRowClick="RowClickEvent" T="Vehiculo">
+     <HeaderContent>
+        <MudTh>Client ID</MudTh>
+        <MudTh>Placa</MudTh>
+        <MudTh>Marca</MudTh>
+        <MudTh>Tipo</MudTh>
+        <MudTh>Capacidad</MudTh>
+        <MudTh>Cilindrada C.C</MudTh>
+        <MudTh>Mecanico</MudTh>
+
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Client ID">@context.ClienteId</MudTd>
+        <MudTd DataLabel="Placa">@context.Placa</MudTd>
+        <MudTd DataLabel="Marca">@context.Marca</MudTd>
+        <MudTd DataLabel="Tipo">@context.TipoVehiculo</MudTd>
+        <MudTd DataLabel="Capacidad">@context.CapacidadPasajeros</MudTd>
+        <MudTd DataLabel="Cilindrada">@context.Cilindrada</MudTd>
+        <MudTd DataLabel="Mecanico">@context.MecanicoId</MudTd>
+    </RowTemplate>
+    <PagerContent>
+            <MudTablePager PageSizeOptions="new int[]{50, 100}" />
+    </PagerContent>
+</MudTable>
+
+
+
+
+
+
+
+@code {
+    private int selectedRowNumber = -1;
+    private MudTable<Vehiculo> mudTable;
+
+   
+    private List<string> clickedEvents = new();
+
+    static List<Vehiculo> vehiculo = new List<Vehiculo>
+    {
+        new Vehiculo{ ClienteId= 1, Placa ="PEZ666", Marca= "Toyota",TipoVehiculo ="SUV", MecanicoId= 1, CapacidadPasajeros= 4, Cilindrada= 2000 },
+        new Vehiculo{ ClienteId= 7, Placa ="POP777", Marca= "Chevrolet",TipoVehiculo ="Camion", MecanicoId= 1, CapacidadPasajeros= 16, Cilindrada= 4000 }
+    };
+
+    
+    private void RowClickEvent(TableRowClickEventArgs<Vehiculo> tableRowClickEventArgs)
+    {
+
+
+        clickedEvents.Add("Row has been clicked");
+
+    }
+
+    private string SelectedRowClassFunc(Vehiculo vehiculo, int rowNumber)
+    {
+        if (selectedRowNumber == rowNumber)
+        {
+            selectedRowNumber = -1;
+          
+            return string.Empty;
+        }
+        else if (mudTable.SelectedItem != null && mudTable.SelectedItem.Equals(vehiculo))
+        {
+            selectedRowNumber = rowNumber;
+           
+            return "selected";
+        }
+        else
+        {
+            return string.Empty;
+        }
+    }
+
+
+}
