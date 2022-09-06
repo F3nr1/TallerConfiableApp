@@ -1,0 +1,68 @@
+﻿@page "/clientes"
+
+@using TallerMecanicoCApp.Controllers
+@inject HttpClient Http
+
+
+<MudText>personas</MudText>
+
+@if(personas ==null)
+{
+    <MudText>Cargando......</MudText>
+}else if(persona.Length == 0)
+{
+        <MudText>No hay datos en la tabla</MudText>
+}else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Id</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var persona in personas)
+            {
+               <tr>
+                   <td>
+                       <a class="btn btn-success">Editar</a>
+                       <button class="btn btn-danger">Borrar</button>
+                   </td>
+                   <td>@persona.PersonaId</td>
+                   <td>@persona.Nombre</td>
+               </tr>
+
+                
+
+            }
+
+        </tbody>
+    </table>
+
+}
+
+
+
+@code {
+    [Inject]
+    public Persona personas{ get; set; }
+
+    [Inject]
+    public HttpClient Client { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var personas = await Http.GetFromJsonAsync<List<Persona>>("/api/Personas");
+        if (personas !=null)
+        {
+            personas. = personas;
+        }
+
+    }
+    
+
+  
+
+}
