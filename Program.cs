@@ -16,8 +16,6 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddMudServices();
 
-builder.Services.AddDbContext<DBTallerMContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("TallerConnection")));
 
 
 var app = builder.Build();
